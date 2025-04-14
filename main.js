@@ -55,6 +55,6 @@ function createConfigFile(filename, content) {
   });
 }
 
-// Создаем файлы
+// Создаем файлы :)
 createConfigFile('.editorconfig', editorConfigContent);
 createConfigFile('.prettierrc.js', prettierConfigContent);
