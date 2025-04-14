@@ -4,9 +4,10 @@ import "./App.css";
 function App() {
   const data = new Date();
   return React.createElement(
-    React.Fragment,
-    null,
-    "Hello",
+    "div",
+    { className: "App" }, 
+    null,   
+    <h1>"Hello !"</h1>,
     React.createElement("div", null, data.getFullYear())
   );
 }
