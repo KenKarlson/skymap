@@ -8,8 +8,8 @@ function App() {
     { className: "App" }, 
     React.createElement("h1", {className:"title"}, "Hello !"),
     React.createElement("div", {className:"year"}, data.getFullYear()),
-    React.createElement("div", {className:"month"}, data.getMonth()),
-    React.createElement("div", {className:"day"}, data.getDate())
+    React.createElement("strong", {className:"month"}, data.getMonth()),
+    React.createElement("p", {className:"day"}, data.getDate())
   );
 }
 
