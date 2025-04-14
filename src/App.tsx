@@ -1,13 +1,13 @@
+import React from "react";
 import "./App.css";
 
 function App() {
   const data = new Date();
-  return (
-    <>
-      Hello
-      <div>{data.getFullYear()}</div>
-      
-    </>
+  return React.createElement(
+    React.Fragment,
+    null,
+    "Hello",
+    React.createElement("div", null, data.getFullYear())
   );
 }
 
