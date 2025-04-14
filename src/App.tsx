@@ -1,10 +1,12 @@
 import "./App.css";
 
 function App() {
+  const data = new Date();
   return (
     <>
-      <div>123</div>
-      hello
+      Hello
+      <div>{data.getFullYear()}</div>
+      
     </>
   );
 }
