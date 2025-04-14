@@ -6,9 +6,10 @@ function App() {
   return React.createElement(
     "div",
     { className: "App" }, 
-    null,   
-    <h1>"Hello !"</h1>,
-    React.createElement("div", null, data.getFullYear())
+    React.createElement("h1", {className:"title"}, "Hello !"),
+    React.createElement("div", {className:"year"}, data.getFullYear()),
+    React.createElement("div", {className:"month"}, data.getMonth()),
+    React.createElement("div", {className:"day"}, data.getDate())
   );
 }
 
